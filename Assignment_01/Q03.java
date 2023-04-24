@@ -26,3 +26,8 @@ public class Q03 {
         return (sum==product);
     }
 }
+/*
+    OUTPUT
+    Enter the value of N: 132
+    132 is a spy number.
+*/
