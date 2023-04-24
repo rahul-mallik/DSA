@@ -16,3 +16,9 @@ public class HQ01 {
             System.out.println("a.b=c");
     }
 }
+/*
+    OUTPUT
+    Enter the value of a , b and c: 
+    1 2 3
+    a+b=c
+*/
