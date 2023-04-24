@@ -22,3 +22,10 @@ public class Q02 {
             System.out.println("Obese");
     }
 }
+/*
+    OUTPUT
+    Enter the weight of the person kg: 150
+    Enter the height of the person meter: 1.5
+    Obese
+
+*/
