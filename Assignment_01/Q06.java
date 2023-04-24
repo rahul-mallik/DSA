@@ -15,3 +15,9 @@ public class Q06 {
         return ((1&n) == 1);
     }
 }
+/*
+    OUTPUT
+    Enter a number : 57
+    57 is Odd: true
+
+*/
