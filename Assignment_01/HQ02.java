@@ -8,7 +8,7 @@ public class HQ02 {
 
         System.out.print("Enter the number of lines u want to have: ");
         int size = in.nextInt();
-        in.nextLine();// to flush the enter or we can say the /n we put as input in the nextInt statement
+        in.nextLine();// to flush the enter or we can say the \n we put as input in the nextInt statement
         String[] lines = new String[size];
         standardInput(lines);
         standardOutput(lines);
@@ -29,3 +29,14 @@ public class HQ02 {
     }
 
 }
+/* 
+    OUTPUT
+    Enter the number of lines u want to have: 3
+    Enter your line: Hello World
+    Enter your line: AI will take over this world
+    Enter your line: mera naam binod hai
+    Standard Output:
+    mera naam binod hai
+    AI will take over this world
+    Hello World
+*/
