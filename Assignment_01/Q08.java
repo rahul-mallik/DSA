@@ -36,3 +36,14 @@ public class Q08 {
         System.out.println("The sum of elements of the 2D-Array is "+sum);
     }
 }
+/*
+    OUTPUT
+    Enter number of Row and Columns of 2D-Array: 2 3
+    Enter the element of the 2D Array: 
+    1 2 3
+    1 2 3
+    The elements of 2D array are: 
+    1 2 3 
+    1 2 3 
+    The sum of elements of the 2D-Array is 12
+*/
