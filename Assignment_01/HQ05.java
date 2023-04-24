@@ -54,3 +54,12 @@ public class HQ05 {
         System.out.println("The largest column index: "+maxColumn);
     }
 }
+/*
+    OUTPUT
+    1 1 0 1 
+    1 0 1 0 
+    0 0 1 1 
+    1 1 1 1 
+    The Largest row index: 3
+    The largest column index: 0
+*/
