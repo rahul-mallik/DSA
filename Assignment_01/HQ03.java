@@ -39,3 +39,13 @@ public class HQ03 {
         }
     }
 }
+/*
+    OUTPUT
+    Enter the length of the array: 5
+    Enter the values in Array a :
+    1 2 3 4 5
+    Enter the values in Array b :
+    1 2 3 4 5
+    The dot Product of Array a and b is: 
+    1 4 9 16 25 
+*/
