@@ -27,3 +27,8 @@ public class Q05 {
         return sum;
     }
 }
+/*
+    OUTPUT
+    Enter a number: 9294
+    Sum of digits of 9294 until the number is a single digit is 6
+*/
