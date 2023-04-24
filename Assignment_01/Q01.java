@@ -16,3 +16,10 @@ public class Q01 {
                 "before getting a value less than 2 is "+counter);
     }
 }
+
+/*
+    OUTPUT
+    Enter an positive Integer: 12
+    The number of times one must repeatedly divide this number by 2 
+    before getting a value less than 2 is 2
+*/
