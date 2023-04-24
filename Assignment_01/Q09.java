@@ -26,3 +26,12 @@ public class Q09 {
         return sum;
     }
 }
+/*
+    OUTPUT
+    Enter a 4-by-4 matrix row by row: 
+    1 2 3 4
+    1 2 3 4
+    1 2 3 4
+    1 2 3 4
+    Sum of the elements in the major diagonal is 10.0
+*/
