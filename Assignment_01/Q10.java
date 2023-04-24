@@ -30,3 +30,14 @@ public class Q10 {
         return sum;
     }
 }
+/*
+    OUTPUT
+    Enter a 3-by-4 matrix row by row:
+    1 2 3 4
+    1 2 3 4
+    1 2 3 4
+    Sum of the elements at column 0 is 3.0
+    Sum of the elements at column 1 is 6.0
+    Sum of the elements at column 2 is 9.0
+    Sum of the elements at column 3 is 12.0
+*/
