@@ -12,7 +12,8 @@ public class HQ04 {
         setValues(matrix1);
         double[][] matrix2 = new double[size][size];
         setValues(matrix2);
-
+        
+        System.out.println("The sum of two Matrices are:");
         double [][] sumOfMatices = addMatrix(matrix1,matrix2);
         display(sumOfMatices);
     }
@@ -45,3 +46,19 @@ public class HQ04 {
         return tempArr;
     }
 }
+/*
+    OUTPUT
+    Enter the size of the two square matrices: 3
+    Enter the values according to 3X3 matrix: 
+    1 2 3
+    1 2 3
+    1 2 3
+    Enter the values according to 3X3 matrix: 
+    1 1 1
+    2 2 2
+    3 3 3
+    The sum of two Matrices are:
+    2.0 3.0 4.0 
+    3.0 4.0 5.0 
+    4.0 5.0 6.0
+*/
