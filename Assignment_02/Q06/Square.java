@@ -3,6 +3,7 @@ package Q06;
 import java.util.Scanner;
 
 public class Square extends Shape{
+
     @Override
     void area() {
         Scanner in = new Scanner(System.in);

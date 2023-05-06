@@ -8,21 +8,11 @@ public class Deposit {
     double rate;
     double Total_amt;
     static Scanner in = new Scanner(System.in);
-    Deposit (){
-        System.out.print("Enter Principal: ");
-        Principal = in.nextLong();
-        System.out.print("Enter Time: ");
-        Time = in.nextInt();
-        System.out.println("Enter rate: ");
-        rate = in.nextDouble();
-        calc_amt();
-    }
+    Deposit (){}
 
     Deposit (long Principal,int Time, double rate){
-        this.Principal = Principal;
-        this.Time = Time;
+        this(Principal,Time);
         this.rate = rate;
-        calc_amt();
     }
 
     Deposit (long Principal,int Time){

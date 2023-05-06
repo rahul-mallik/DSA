@@ -1,7 +1,5 @@
 package Q06;
 
-public class Shape {
-    void area(){
-
-    }
+abstract class Shape {
+    abstract void area();
 }
