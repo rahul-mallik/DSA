@@ -11,6 +11,8 @@ public class Q03 {
 
         if (Spy(N))
             System.out.println(N+" is a spy number.");
+        else
+            System.out.println(N+" is not a spy number.");
     }
 
     static boolean Spy(int n){
