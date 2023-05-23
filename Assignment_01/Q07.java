@@ -22,21 +22,21 @@ public class Q07 {
 
     static void MaxFirst_MinLast_Occurrence(int[] arr){
         int maxEle = 0 , minEle = arr[0];
-        for (int Element: arr) {
-            if (maxEle<Element)
-                maxEle = Element;
-            else if (minEle>Element)
-                minEle = Element;
+        for (int i = 0; i<arr.length ; i++) {
+            if (maxEle<arr[i])
+                maxEle = arr[i];
+            else if (minEle>arr[i])
+                minEle = arr[i];
         }
 
         int maxOcc = 0, minOcc = 0, max1stPos = 0, minLastPos = 0,position=1;
-        for (int ele : arr){
-            if (maxEle==ele) {
+        for (int i = 0 ; i<arr.length; i++){
+            if (maxEle==arr[i]) {
                 maxOcc++;
                 if (max1stPos==0)
                     max1stPos = position;
             }
-            if(minEle==ele) {
+            if(minEle==arr[i]) {
                 minOcc++;
                 minLastPos = position;
             }
