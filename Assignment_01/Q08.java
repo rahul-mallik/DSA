@@ -25,10 +25,10 @@ public class Q08 {
     static void display(int[][] arr){
         int sum = 0 ;
         System.out.println("The elements of 2D array are: ");
-        for (int[] Array: arr) {
-            for (int elem : Array){
-                sum+=elem;
-                System.out.print(elem + " ");
+        for (int i = 0; i<arr.length ; i++) {
+            for (int j = 0; j<arr[i].length ; j++){
+                sum+=arr[i][j];
+                System.out.print(arr[i][j] + " ");
             }
             System.out.println();
         }
