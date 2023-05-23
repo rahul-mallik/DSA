@@ -33,7 +33,7 @@ public class Q07 {
         for (int i = 0 ; i<arr.length; i++){
             if (maxEle==arr[i]) {
                 maxOcc++;
-                if (max1stPos==0)
+                if (maxOcc==1)
                     max1stPos = position;
             }
             if(minEle==arr[i]) {
