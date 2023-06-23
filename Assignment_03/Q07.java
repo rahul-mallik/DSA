@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Q07 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int ch = 0;
+        int ch;
         do {
             System.out.println("===================================");
             System.out.println("Operations: " +
