@@ -5,15 +5,15 @@ public class Q07 {
         Scanner in = new Scanner(System.in);
         int ch = 0;
         do {
-            System.out.println("__________________________________");
+            System.out.println("===================================");
             System.out.println("Operations: " +
-                    "\n1. Factorial" +
-                    "\n2. Determine X to the power N" +
-                    "\n3. GCD" +
-                    "\n4. Binary Equivalent" +
-                    "\n5. Product" +
-                    "\n0. Exit" +
-                    "\n__________________________________");
+                               "\n1. Factorial" +
+                               "\n2. Determine X to the power N" +
+                               "\n3. GCD" +
+                               "\n4. Binary Equivalent" +
+                               "\n5. Product" +
+                               "\n0. Exit" +
+                               "\n===================================");
             System.out.print("Enter your choice(0-5): ");
             ch = in.nextInt();
 
@@ -27,6 +27,12 @@ public class Q07 {
                     System.out.println("Enter the base and power: ");
                     int x = in.nextInt(), n = in.nextInt();
                     System.out.println("Ans: " + power(x, n, 1));
+                    break;
+                case 3:
+                    System.out.println("Enter 2 numbers for their GCD: ");
+                    int a = in.nextInt(),b=in.nextInt();
+                    int max = Math.max(a,b),min = Math.min(a,b);
+                    System.out.println("GCD of "+max+" and "+min+" is: "+GCD(max,min));
                     break;
                 case 4:
                     System.out.println("Enter the Decimal No.: ");
@@ -75,6 +81,13 @@ public class Q07 {
             return ans;
 
         return power(x,n-1,ans*x);
+    }
+
+    static int GCD(int a, int b){
+        if(a%b==0)
+            return b;
+
+        return GCD(b,a%b);
     }
 
 
