@@ -102,7 +102,6 @@ class LinkedList{
 
         if(loc<1 || loc>c+1) {
             System.out.println("Invalid node to insert");
-//            return;
         }
         else if (loc == 1)
             insBeg();
