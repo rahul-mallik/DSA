@@ -164,12 +164,12 @@ public class Main {
 
         int size = count(start);
 
-        if(pos<1 || pos>size) {
+        if(pos<1 || pos>size+1) {
             System.out.println("Invalid Node position..");
             return start;
         } else if (pos == 1 || start == null) {
             return insBeg(start);
-        } else if (pos == size) {
+        } else if (pos == size+1) {
             return insEnd(start);
         }else{
             Node q = start;
